@@ -140,7 +140,7 @@ public class LangUtil {
                     "1. 서버의 {specialsourcefolder} 폴더로 들어갑니다.\n" +
                     "2. SpecialSource-1.7-SNAPSHOT.jar 파일을 삭제 합니다.\n" +
                     "3. SpecialSource v1.7.4를 http://central.maven.org/maven2/net/md-5/SpecialSource/1.7.4/SpecialSource-1.7.4.jar 에서 다운로드 받습니다.\n" +
-                    "4. {specialsourcefolder}로 3에서 다운로드 받은 파일을 복사합니다." + 
+                    "4. {specialsourcefolder}로 3에서 다운로드 받은 파일을 복사합니다." +
                     "5. 4에서 복사한 파일의 이름을 SpecialSource-1.7-SNAPSHOT.jar로 바꿉니다.\n" +
                     "6. 서버를 재부팅 합니다.\n" +
                     "\n" +
@@ -650,7 +650,7 @@ public class LangUtil {
             put(Language.ES, "Intentaste decir el siguiente mensaje en el chat del juego, pero este servidor requiere que tenga su cuenta de Minecraft vinculada a su cuenta de Discord. Vinculalo en el juego escribiendo `/discord link`.\n```{message}```");
             put(Language.RU, "Вы попытались отправить сообщение в игровой чат из клиента Discord, однако сервер требует, чтобы вы привязали ваш Майнкрафт аккаунт к вашей учётной записи Discord. Чтобы связать эти аккаунты, используйте команду `/discord link` в игре.\n```{message}```");
         }}), ACCOUNT_ALREADY_LINKED(new HashMap<Language, String>() {{
-            put(Language.EN, "Your Minecraft account is already associated with a Discord account. Should you have permission to, you can unlink your account with /discord unlink.");
+            put(Language.EN, "&fYour Minecraft account is already associated with a Discord account. Should you have permission to, you can unlink your account with /discord unlink.");
             put(Language.FR, "Votre compte Minecraft est déjà associé à un compte Discord. Si vous avez la permission vous pouvez utiliser la commande /discord unlink pour retirer votre compte Discord.");
             put(Language.DE, "Ihr Minecraft-Konto ist bereits mit einem Discord-Konto verknüpft. Sollten Sie die Erlaubnis haben, können Sie Ihre Konto-Verknüpfung mit /discord unlink aufheben.");
             put(Language.JA, "あなたのMinecraftアカウントはすでにDiscordアカウントに関連付けられています。 もしあなたがパーミッションを持っていれば、/discord unlinkを実行して2つのリンクを解除することができます。");
