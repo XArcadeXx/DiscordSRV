@@ -542,7 +542,7 @@ public class LangUtil {
             put(Language.ES, "No conozco ese código, inténtelo de nuevo.");
             put(Language.RU, "Я не знаю такого кода, попробуйте снова.");
         }}), INVALID_CODE(new HashMap<Language, String>() {{
-            put(Language.EN, "Are you sure that's your code? Link codes are 4 numbers long.");
+            put(Language.EN, "Are you sure that's your code? Link codes are **4** numbers long.");
             put(Language.FR, "Êtes vous sûr qu'il s'agit du bon code ? Les codes possèdent quatre chiffres.");
             put(Language.DE, "Bist du sicher, dass dies dein Code ist? Link-Codes bestehen aus 4 Zahlen.");
             put(Language.JA, "それがあなたのコードで正しいですか？リンクコードは4文字の数字です。");
@@ -560,7 +560,7 @@ public class LangUtil {
             put(Language.ES, "Ningún idioma dado para transmitir");
             put(Language.RU, "Не найден подходящий язык для отправки уведомлений");
         }}), UNABLE_TO_LINK_ACCOUNTS_RIGHT_NOW(new HashMap<Language, String>() {{
-            put(Language.EN, "Currently unable to link accounts due to an internal error. Contact your server administration team.");
+            put(Language.EN, "&cSkyLands &7&l⏐ &fCurrently unable to link accounts due to an internal error. Contact your server administration team.");
             put(Language.FR, "Impossible de lier votre compte à cause d'une erreur. Merci de contacter l'équipe de votre serveur.");
             put(Language.DE, "Fehler beim Verbinden der Accounts wegen eines internen Fehlers. Bitte melde dies dem Serverteam.");
             put(Language.JA, "現在、内部エラーのためにアカウントをリンクできません。サーバー管理チームに連絡してください。");
@@ -569,7 +569,7 @@ public class LangUtil {
             put(Language.ES, "Actualmente no puede vincular cuentas debido a un error interno. Póngase en contacto con su equipo de administración del servidor.");
             put(Language.RU, "К сожалению, мы не можем связать ваши аккаунты из-за внутренней ошибки. Свяжитесь с администратором сервера.");
         }}), NO_PERMISSION(new HashMap<Language, String>() {{
-            put(Language.EN, "You do not have permission to perform this command.");
+            put(Language.EN, "&cSkyLands &7&l⏐ &fYou do not have permission to perform this command.");
             put(Language.FR, "Vous n'avez pas accès à cette commande.");
             put(Language.DE, "Du hast keine Berechtigung diesen Befehl auszuführen.");
             put(Language.JA, "あなたはこのコマンドを実行する権限がありません。");
@@ -587,7 +587,7 @@ public class LangUtil {
             put(Language.ES, "Solo los jugadores pueden ejecutar este comando");
             put(Language.RU, "Только игроки могут выполнить такую команду.");
         }}), COMMAND_DOESNT_EXIST(new HashMap<Language, String>() {{
-            put(Language.EN, "That command doesn't exist!");
+            put(Language.EN, "&cSkyLands &7&l⏐ &fThat command doesn't exist!");
             put(Language.FR, "Cette commande n'existe pas !");
             put(Language.DE, "Dieser Befehl existiert nicht!");
             put(Language.JA, "指定されたコマンドは存在しません！");
@@ -596,7 +596,7 @@ public class LangUtil {
             put(Language.ES, "Este comando no existe");
             put(Language.RU, "Такой команды не существует!");
        }}), RELOADED(new HashMap<Language, String>() {{
-            put(Language.EN, "The DiscordSRV config & lang have been reloaded.");
+            put(Language.EN, "&cSkyLands &7&l⏐ &fThe DiscordSRV config & lang have been reloaded.");
             put(Language.FR, "La configuration et les fichiers de langage de DiscordSRV ont été rechargé.");
             put(Language.DE, "Die DiscordSRV Konfiguration und Sprachdatei wurden neu eingelesen.");
             put(Language.JA, "DiscordSRVの設定と言語が再読込されました。");
@@ -605,7 +605,7 @@ public class LangUtil {
             put(Language.ES, "La configuracion y el idioma de DiscordSRV han sido recargadas");
             put(Language.RU, "DiscordSRV конфигурация и языковые настройки успешно перезагружены.");
         }}), UNLINK_SUCCESS(new HashMap<Language, String>() {{
-            put(Language.EN, "Your Minecraft account is no longer associated with {name}.");
+            put(Language.EN, "&cSkyLands &7&l⏐ &fYour Minecraft account is no longer associated with &c{name}&f.");
             put(Language.FR, "Votre compte Minecraft n'est plus associé à {name}.");
             put(Language.DE, "Dein Minecraft-Account ist nicht länger verbunden mit {name}.");
             put(Language.JA, "あなたのMinecraftアカウントは、{name}とのリンクが解除されました。");
@@ -614,7 +614,7 @@ public class LangUtil {
             put(Language.ES, "Tu cuenta de Minecraft ya no esta asociada con {name}");
             put(Language.RU, "Ваш Майнкрафт аккаунт больше не связан с {name}.");
         }}), LINK_FAIL_NOT_ASSOCIATED_WITH_AN_ACCOUNT(new HashMap<Language, String>() {{
-            put(Language.EN, "Your Minecraft account isn't associated with a Discord account.");
+            put(Language.EN, "&cSkyLands &7&l⏐ &fYour Minecraft account isn't associated with a Discord account.");
             put(Language.FR, "Votre compte Minecraft n'est pas associé à un compte Discord.");
             put(Language.DE, "Dein Minecraft-Account ist mit keinem Discord-Account verbunden.");
             put(Language.JA, "あなたのMinecraftアカウントはDiscordアカウントにリンクされていません。");
@@ -623,7 +623,7 @@ public class LangUtil {
             put(Language.ES, "Tu cuenta de Minecraft no esta asociada con una cuenta de Discord");
             put(Language.RU, "Ваш Майнкрафт аккаунт не привязан к аккаунту Discord.");
         }}), LINKED_SUCCESS(new HashMap<Language, String>() {{
-            put(Language.EN, "Your Minecraft account is associated with {name}.");
+            put(Language.EN, "&cSkyLands &7&l⏐ &fYour Minecraft account is associated with &c{name}&f.");
             put(Language.FR, "Votre compte Minecraft est associé à {name}.");
             put(Language.DE, "Dein Minecraft-Account ist verbunden mit {name}.");
             put(Language.JA, "あなたのMinecraftアカウントは{name}にリンクされました。");
@@ -632,7 +632,7 @@ public class LangUtil {
             put(Language.ES, "Tu cuenta de Minecraft esta asociada con {name}");
             put(Language.RU, "Ваш Майнкрафт аккаунт успешно связан с {name}.");
         }}), LINKED_NOBODY_FOUND(new HashMap<Language, String>() {{
-            put(Language.EN, "Nobody found with Discord ID/Discord name/Minecraft name/Minecraft UUID matching \"{target}\" to look up.");
+            put(Language.EN, "&cSkyLands &7&l⏐ &fNobody found with Discord ID/Discord name/Minecraft name/Minecraft UUID matching \"&c{target}&f\" to look up.");
             put(Language.FR, "Aucune personne ne correspond à l'ID Discord, le nom Minecraft ou un UUID \"{target}\".");
             put(Language.DE, "Niemand gefunden mit der Discord-ID/Discord-Name/Minecraft-Name/Minecraft-UUID \"{target}\".");
             put(Language.JA, "\"{target}\" と一致するものを Discord-ID/Discord-Name/Minecraft-Name/Minecraft-UUID から探しましたが、何も見つかりませんでした。");
@@ -641,7 +641,7 @@ public class LangUtil {
             put(Language.ES, "No se encontro a nadie con Discord ID/nombre de Discord/nombre de Minecraft/Minecraft UUID \"{target}\" para buscar");
             put(Language.RU, "Никого с такими Discord ID/Discord ник/Minecraft ник/Minecraft UUID подходящего \"{target}\" не найдено.");
         }}), LINKED_ACCOUNT_REQUIRED(new HashMap<Language, String>() {{
-            put(Language.EN, "You attempted to say the following message to the game chat but this server requires that you have your Minecraft account linked to your Discord account. Link it in-game by typing `/discord link`.\n```{message}```");
+            put(Language.EN, "&cSkyLands &7&l⏐ &fYou attempted to say the following message to the game chat but this server requires that you have your Minecraft account linked to your Discord account. Link it in-game by typing `&c/discord link&f`.\n```{message}```");
             put(Language.FR, "Le message suivant n'a pas pu être envoyé sur le jeu car votre compte Minecraft doit être lié à votre compte Discord. Liez votre compte depuis Minecraft en tapant `/discord link`.\n```{message}```");
             put(Language.DE, "Du hast versucht die folgende Nachricht im Spielchat zu senden aber dieser Server verlangt, dass du deinen Minecraft-Account mit deinem Discord-Account verbinden musst. Verbinde sie, indem du im Spiel den Befehl `/discord link` eingibst.\n```{message}```");
             put(Language.JA, "ゲームチャットに以下のメッセージを表示しようとしましたが、このサーバーではあなたのMinecraftアカウントをDiscordアカウントにリンクさせる必要があります。リンクさせるには、ゲーム内で `/discord link` を実行してください。\n```{message}```");
@@ -650,7 +650,7 @@ public class LangUtil {
             put(Language.ES, "Intentaste decir el siguiente mensaje en el chat del juego, pero este servidor requiere que tenga su cuenta de Minecraft vinculada a su cuenta de Discord. Vinculalo en el juego escribiendo `/discord link`.\n```{message}```");
             put(Language.RU, "Вы попытались отправить сообщение в игровой чат из клиента Discord, однако сервер требует, чтобы вы привязали ваш Майнкрафт аккаунт к вашей учётной записи Discord. Чтобы связать эти аккаунты, используйте команду `/discord link` в игре.\n```{message}```");
         }}), ACCOUNT_ALREADY_LINKED(new HashMap<Language, String>() {{
-            put(Language.EN, "&fYour Minecraft account is already associated with a Discord account. Should you have permission to, you can unlink your account with /discord unlink.");
+            put(Language.EN, "&cSkyLands &7&l⏐ &fYour Minecraft account is already associated with a Discord account. Should you have permission to, you can unlink your account with &c/discord unlink&f.");
             put(Language.FR, "Votre compte Minecraft est déjà associé à un compte Discord. Si vous avez la permission vous pouvez utiliser la commande /discord unlink pour retirer votre compte Discord.");
             put(Language.DE, "Ihr Minecraft-Konto ist bereits mit einem Discord-Konto verknüpft. Sollten Sie die Erlaubnis haben, können Sie Ihre Konto-Verknüpfung mit /discord unlink aufheben.");
             put(Language.JA, "あなたのMinecraftアカウントはすでにDiscordアカウントに関連付けられています。 もしあなたがパーミッションを持っていれば、/discord unlinkを実行して2つのリンクを解除することができます。");
